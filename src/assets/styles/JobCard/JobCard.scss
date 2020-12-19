@@ -1,0 +1,64 @@
+$BotonColor: #0791e6;
+$linear-gradient: linear-gradient(79.95deg, #0791e6 4.03%, #97ca3f 95.71%);
+.Card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 25px 30px -7px rgba(10, 10, 10, 0.71);
+  width: 500px;
+  height: 230px;
+  border-radius: 15px;
+  &__date {
+    padding: 5px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  &__jobname {
+    padding: 5px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &__jobcity {
+    padding: 5px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px;
+    div {
+      width: 95px;
+      height: 30px;
+      background-color: $BotonColor;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+}
+.Card:hover {
+  background-image: $linear-gradient;
+  color: white;
+}

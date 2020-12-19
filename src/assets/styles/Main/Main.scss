@@ -1,0 +1,17 @@
+$linear-gradient: linear-gradient(79.95deg, #0791e6 4.03%, #97ca3f 95.71%);
+$Title-color: #97ca3f;
+.main {
+  &__title {
+    text-align: center;
+    color: $Title-color;
+  }
+  &__areas {
+    width: 160px;
+    height: 40px;
+    font-size: 1.4rem;
+    background-image: $linear-gradient;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+  }
+}

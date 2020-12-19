@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
-
+import Main from "../components/Main/Main";
+import "../assets/styles/Var.scss";
 class App extends React.Component {
   render() {
     return (
       <Fragment>
-        <h1>Hola Mundo</h1>
+        <Main />
       </Fragment>
     );
   }
